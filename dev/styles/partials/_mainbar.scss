@@ -1,0 +1,17 @@
+.mainbar{
+  height: 241px;
+  background: rgb(16,113,227); /* Old browsers */
+  background: -moz-linear-gradient(45deg, rgba(16,113,227,1) 0%, rgba(0,168,234,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(45deg, rgba(16,113,227,1) 0%,rgba(0,168,234,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(45deg, rgba(16,113,227,1) 0%,rgba(0,168,234,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1071e3', endColorstr='#00a8ea',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+.navbar-brand{
+  color:white;
+}
+.nav-link{
+  color:rgba(255,255,255,0.5);
+  &:hover{
+    color:white;
+  }
+}
